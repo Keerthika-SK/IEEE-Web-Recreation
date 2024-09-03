@@ -1,0 +1,58 @@
+body{
+    margin:0px;
+    background-color: rgb(6, 107, 157);
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.box{
+    background: linear-gradient(rgb(85, 164, 228),rgb(88, 164, 214),rgb(110, 194, 242));
+    border: 2px solid rgb(149, 184, 228);
+    border-radius: 2px;
+    box-shadow: 2px solid rgb(82, 108, 224) rgb(95, 164, 233);
+    position: absolute;
+    top:20%;
+    left: 35%;
+    padding: 50px;
+    margin: 30px;
+}
+input[type="text"]{
+    color:white;
+    background: transparent;
+    size:50px;
+    border: 1px solid rgb(85, 164, 228);
+    border-bottom: 1px solid black;
+    display:inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: rgb(5, 162, 246);
+    padding: 10px;
+    margin: 20px;
+    width:150px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #d3d3d3;
+    transition: 0.2s all;
+    cursor: text;
+  }
